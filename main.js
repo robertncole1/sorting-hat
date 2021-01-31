@@ -14,19 +14,6 @@ const formBuilder = () => {
     document.querySelector("#new-student-form").style.display = 'block';
 }
 
-const studentBuilder = (taco) => {
-  let dom = "";
-  for (const [i, item] of taco.entries()) {
-    dom += `<div class="card my-2" style="width: 18rem;" id=${i}>
-    <div class="card-body">
-      <h5 class="card-title">${item.name}</h5>
-      <p class="card-text">${students[i].house = hogwartsHouse[Math.floor(Math.random() * hogwartsHouse.length)]}</p>
-    </div>
-  </div>`;
-  }
-  printToDom('#new-student', dom);
-}
-
 const getFormInfo = (e) => {
   e.preventDefault();
     const name = document.querySelector('#name').value;
@@ -34,11 +21,25 @@ const getFormInfo = (e) => {
 
     const obj = {
       name,
+      house: hogwartsHouse[Math.floor(Math.random() * hogwartsHouse.length)],
     }
  
   students.push(obj);
   studentBuilder(students);
   document.querySelector('form').reset();
+}
+
+const studentBuilder = (taco) => {
+  let dom = "";
+  for (const [i, item] of taco.entries()) {
+    dom += `<div class="card my-2" style="width: 18rem;" id=${i}>
+    <div class="card-body">
+      <h5 class="card-title">${item.name}</h5>
+      <p class="card-text">${item.house}</p>
+    </div>
+  </div>`;
+  }
+  printToDom('#new-student', dom);
 }
 
 
