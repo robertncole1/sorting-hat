@@ -1,34 +1,54 @@
 console.log('Hello World');
 
-const students = [
-  {
-    name: "",
-    house: "",
-    id: "",
-  },
-];
+const students = []
 
-const domPrint = (Id, textToAdd) => {
-  const selectedDiv = document.querySelector(Id);
-  selectedDiv.innerHTML = textToAdd;
+const hogwartsHouse = ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"];
+
+
+const printToDom = (divId, textToPrint) => {
+  const selectedDiv = document.querySelector(divId);
+  selectedDiv.innerHTML = textToPrint;
 }
 
-const formBuilder = (taco) => {
-    document.querySelector("#new-student-form").innerHTML = `<h3>Enter First Year's Name</h3>
-  <form>
-    <div class="mb-3">
-      <label class="form-label">Student</label>
-      <input type="text" class="form-control" id="name" required>
+const formBuilder = () => {
+    document.querySelector("#new-student-form").style.display = 'block';
+}
+
+const studentBuilder = (taco) => {
+  let dom = "";
+  for (const [i, item] of taco.entries()) {
+    dom += `<div class="card my-2" style="width: 18rem;" id=${i}>
+    <div class="card-body">
+      <h5 class="card-title">${item.name}</h5>
+      <p class="card-text">${students[i].house = hogwartsHouse[Math.floor(Math.random() * hogwartsHouse.length)]}</p>
     </div>
-    <button type="submit" class="btn btn-secondary">Sort!</button>
-  </form>`;
+  </div>`;
+  }
+  printToDom('#new-student', dom);
 }
+
+const getFormInfo = (e) => {
+  e.preventDefault();
+    const name = document.querySelector('#name').value;
+
+
+    const obj = {
+      name,
+    }
+ 
+  students.push(obj);
+  studentBuilder(students);
+  document.querySelector('form').reset();
+}
+
 
 const btnEvents = () => {
   document.querySelector('#Sorting').addEventListener('click', formBuilder);
+  document.querySelector('form').addEventListener('submit', getFormInfo);
 }
 
 const init = () => {
+  console.log(students);
   btnEvents();
 }
 
