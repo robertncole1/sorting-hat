@@ -9,3 +9,8 @@
 .card-body {
   text-align: center;
 }
+
+#new-student {
+  display: flex;
+  justify-content: space-around;
+}
