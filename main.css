@@ -1,5 +1,6 @@
-.container {
-  width: 75%;
+body {
+  background-image: url("https://wallpaper.dog/large/17077813.jpg");
+  
 }
 
 #new-student-form {
@@ -28,4 +29,22 @@
   position: relative;
   overflow: hidden;
   margin: auto;
+}
+
+.img-container-2 {
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 220px;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+}
+
+.jumbotron {
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  border: 5px solid rgb(137,0,0);
+  border-top: 0px;
 }

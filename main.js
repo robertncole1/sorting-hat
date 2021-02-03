@@ -102,7 +102,7 @@ const expelledBuilder = (taco) => {
   for (const [i, item] of taco.entries()) {
     dom += `<div class="card my-2" id=${i}>
     <div class="card-body">
-    <div class="img-container" style="background-image: url('https://static.wikia.nocookie.net/harrypotter/images/d/d4/Death_Eaters_WBST.png/revision/latest?cb=20161205041948');"></div>
+    <div class="img-container-2" style="background-image: url('https://static.wikia.nocookie.net/harrypotter/images/d/d4/Death_Eaters_WBST.png/revision/latest?cb=20161205041948');"></div>
     <h5 class="card-title">Sorry, <strong>${item.name}</strong> went to the darkside.</h5>
     </div>
   </div>`;
