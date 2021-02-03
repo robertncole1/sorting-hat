@@ -8,9 +8,24 @@
 
 .card-body {
   text-align: center;
+  margin: auto;
 }
 
-#new-student {
-  display: flex;
-  justify-content: space-around;
+.card-title {
+  padding: 15px;
+}
+
+.col h3 {
+  text-align: center;
+  padding: 20px;
+}
+
+.img-container {
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 220px;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
 }
