@@ -32,7 +32,7 @@ const formBuilder = () => {
 };
 
 
-const getFormInfo = (e) => {
+const getForm = (e) => {
   e.preventDefault();
   const name = document.querySelector("#name").value;
 
@@ -112,7 +112,7 @@ const expelledBuilder = (taco) => {
 
 const btnEvents = () => {
   document.querySelector("#Sorting").addEventListener("click", formBuilder);
-  document.querySelector("form").addEventListener("submit", getFormInfo);
+  document.querySelector("form").addEventListener("submit", getForm);
   document.querySelector("#new-student").addEventListener("click", deleteStudent);
 };
 
