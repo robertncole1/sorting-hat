@@ -12,8 +12,11 @@ Standard
 # Screenshots
 (https://github.com/robertncole1/sorting-hat/blob/page-build/Screen%20Shot%202021-02-05%20at%2010.39.11%20PM.png?raw=true)
 
-# LOOM
+# Loom
 (https://www.loom.com/share/c0b3b7adf8da47549a04989a087450f0)
+
+# Netlify
+https://rc-sorting-hat.netlify.app/
 
 
 # Features
