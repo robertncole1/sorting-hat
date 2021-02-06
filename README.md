@@ -1,4 +1,35 @@
 # Sorting Hat
+The purpose of this application is to be able to insert a name into a form that will then randomly populate a Hogwarts House for each name entered. It also allows for the functionality to "Expel" someone from the school, thus making them a "Death Eater" and putting them in their own seperate category.
+# Motivation 
+To test my skills as a Javascript developer and to be able to get to an end result that I was proud of.
+
+# Build Status
+Complete
+
+# Code style
+Standard
+
+# Screenshots
+(https://github.com/robertncole1/sorting-hat/blob/page-build/Screen%20Shot%202021-02-05%20at%2010.39.11%20PM.png?raw=true)
+
+# Features
+Bootstrap Styling/Jumbotron
+Hidden Popup form for name entry
+Two Categories on page for students: First Years and Death Eaters
+Sorting Hat house assignment
+Crest of hogwarts house shows up for each sorted student
+Image for Death Eaters also populates upon expulsion
+The ability to expel a student, thus making them a Death Eater
+
+# How To Use
+Hit the button at the top that says, "Let's Start Sorting!".
+Then enter a name of the first year student. Their name should appear and populate a Hogwarts house.
+If needed, expel the student by hitting the expel button. This should put that student in the Death Eaters Category
+
+
+
+# Original Assginment Intructions
+# Sorting Hat
 
 ## Goals
 The goal of this project is to test your knowledge and to have a FUN time stretching yourself on your FIRST independent application that will become a part of your portfolio.
