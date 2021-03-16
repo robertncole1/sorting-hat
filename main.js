@@ -6,19 +6,19 @@ let expelledStudents = [];
 const hogwartsHouse = [ 
   {
     houseName: "Gryffindor",
-    imageUrl: "https://static.wikia.nocookie.net/harrypotter/images/b/b1/Gryffindor_ClearBG.png/revision/latest/scale-to-width-down/1000?cb=20190222162949",
+    imageUrl: "https://static.wikia.nocookie.net/harrypotter/images/e/ee/Gryffindor_Crest-0.jpg/revision/latest/scale-to-width-down/182?cb=20160729145529",
   },
   {
     houseName: "Hufflepuff",
-    imageUrl: "https://static.wikia.nocookie.net/harrypotter/images/0/06/Hufflepuff_ClearBG.png/revision/latest/scale-to-width-down/877?cb=20161020182518",
+    imageUrl: "https://static.wikia.nocookie.net/harrypotter/images/d/da/Hufflepuff_House_Crest_old.jpg/revision/latest/scale-to-width-down/160?cb=20160729145653",
   },
   {
     houseName: "Ravenclaw",
-    imageUrl: "https://static.wikia.nocookie.net/harrypotter/images/4/4e/RavenclawCrest.png/revision/latest/scale-to-width-down/871?cb=20161020182442",
+    imageUrl: "https://static.wikia.nocookie.net/harrypotter/images/7/77/Ravenclaw_House_Crest.jpg/revision/latest/scale-to-width-down/160?cb=20160729145945",
   },
   {
     houseName: "Slytherin",
-    imageUrl: "https://static.wikia.nocookie.net/harrypotter/images/0/00/Slytherin_ClearBG.png/revision/latest/scale-to-width-down/871?cb=20161020182557",
+    imageUrl: "https://static.wikia.nocookie.net/harrypotter/images/7/71/Slytherin_crest_old.jpg/revision/latest/scale-to-width-down/160?cb=20160729150848",
   }
 ];
 
